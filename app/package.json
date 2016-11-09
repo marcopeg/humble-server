@@ -1,0 +1,16 @@
+{
+  "name": "humble-server",
+  "version": "1.0.0",
+  "description": "humble server utility scripts",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.1.2",
+    "extend": "^3.0.0",
+    "yamljs": "^0.2.8"
+  }
+}
