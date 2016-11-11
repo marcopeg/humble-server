@@ -8,4 +8,5 @@ getHumbleConfig()
         .filter(app => app.enabled.toLowerCase() === 'yes')
         .map(app => app.folderName)
     )
-    .then(apps => console.log(apps.join(' ')));
+    .then(apps => console.log(apps.join(' ')))
+    .catch(err => console.error(err));
